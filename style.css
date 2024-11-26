@@ -8,7 +8,7 @@
   --text-color: white;
   --bg-url: url(./Assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.1);
+  --surface-color: rgba(255, 255, 255, 0.5);
   --surface-color-hover: rgba(0, 0, 0, 0.2);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./Assets/moon-stars.svg);
@@ -18,9 +18,9 @@
   --text-color: black;
   --bg-url: url(./Assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
-  --surface-color: rgba(0, 0, 0, 0.2);
-  --surface-color-hover: rgba(0, 0, 0, 0.5);
-  --highlight-color: rgba(0, 0, 0, 0.2);
+  --surface-color: rgba(0, 0, 0, 0.5);
+  --surface-color-hover: rgba(0, 0, 0, 0.2);
+  --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./Assets/sun.svg);
 
 }
@@ -78,12 +78,12 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-back .2s;
+  animation: slide-back 0.2s;
 
 }
 
 .light #switch button {
-  animation: slide-in .2s forwards;
+  animation: slide-in 0.2s forwards;
 }
 
 #switch button:hover {
@@ -113,8 +113,6 @@ ul {
 }
 
 ul li a {
-  border: 1px solid red ;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -131,7 +129,7 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
 
-  transition: background 0.5s;
+  transition: background 0.2s;
 }
 
 /* pseudo-selector */
