@@ -12,7 +12,7 @@ function toggleMode() {
     
 } else {
   // se tiver sem light mode, manter a imagem normal
-  img.setAttribute('src', './assets/foto-circular.png')
+  img.setAttribute('src', './assets/foto-normal.png')
   
 }
 
